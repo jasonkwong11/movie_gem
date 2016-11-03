@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+require './lib/movie_gem'
+
 puts "HELLOW WORLD"
 
 #you don't want to put logic in here 
+
+MovieGem::CLI.new.call
